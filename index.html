@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bharath S - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Bharath S</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:bharathsubbiah@gmail.com" class="contact-link">bharathsubbiah@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 9952800369" class="contact-link">+91 9952800369</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Coimbatore</address>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="document-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Resume</p>
+
+              <a href="https://drive.google.com/file/d/1B_rmUNnwDzAD3rB8e56jSt1PGxeDiszI/view?usp=sharing" download
+                class="contact-link">Download Resume</a>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEmrG9KgSbi1AAAAZcWiKtoNYQ1FXhCNb4cRHJxtmUEFowMSZNEvhWBoUtkW6EAUEXdL7Uj0SZRfhzby9LVLofpyptwOwW7ZHhkovKbnbJwDupvX8UkOXcjXG5imOuJ08usv3I=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fbharath-s-b16959255"
+              class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/_b_h_a_r_a_t_h_0_5_/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/_b_h_a_r_a_t_h_0_5_/" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li> 
+
+        </ul>
+
+      </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Passionate and detail-oriented Front-End Developer with experience in building responsive and user-friendly
+            web interfaces. Skilled in developing modern websites using HTML, CSS, JavaScript, and Bootstrap. Strong
+            understanding of responsive design and layout development to create clean and efficient user interfaces.
+            Familiar with WordPress, WooCommerce, and Shopify with the ability to collaborate effectively to deliver
+            high-quality web solutions.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Front-End Development</h4>
+
+                <p class="service-item-text">
+                  Develop modern and responsive websites using HTML, CSS, JavaScript, and Bootstrap. Focus on clean
+                  code, optimized layouts, and smooth user experience across desktop, tablet, and mobile devices.
+
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Shopify Website</h4>
+
+                <p class="service-item-text">
+                  Developed a custom, mobile responsive Shopify store with sleek animations and wishlist functionality.
+                  Integrated Razorpay for secure payments and optimized for user experience.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Woocommerce Website</h4>
+
+                <p class="service-item-text">
+                  Built a custom WooCommerce store with responsive design, advanced product filters, and secure payment
+                  integration. Optimized for speed, SEO, and seamless user experience.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Wordpress Websites</h4>
+
+                <p class="service-item-text">
+                  Developed and customized responsive WordPress websites with theme setup, plugin integration, and CMS
+                  configuration while enhancing UI and overall website performance.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Seo icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Search Engine Optimization</h4>
+
+                <p class="service-item-text">
+                  Optimized website content and structure to improve search engine rankings and increase organic
+                  traffic. Implemented keyword research, on-page SEO, and technical fixes for better visibility.
+                </p>
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+
+
+        <!--- testimonials modal-->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--- #RESUME-->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sri Ramakrishina Mission Vidayalaya, Coimbatore</h4>
+
+              <span>2023 — 2025</span>
+
+              <p class="timeline-text">
+                MCA (Master Of Computer Application)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Kongunadu Arts & Science College, Coimbatore</h4>
+
+              <span>2020 — 2023</span>
+
+              <p class="timeline-text">
+                B.Com (Computer Application)
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Developer</h4>
+
+              <span>June 2025 — Jan 2026</span>
+
+              <p class="timeline-text">
+                Ctrl-Next Technologies Pvt Ltd, Coimabtore
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Developer [Intern]</h4>
+
+              <span>Sep 2023 — May 2025</span>
+
+              <p class="timeline-text">
+                Ctrl-Next Technologies Pvt Ltd, Coimabtore
+              </p>
+
+            </li>
+          </ol>
+
+        </section>
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <!-- <data value="98">98%</data> -->
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <!-- <data value="98">98%</data> -->
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Bootstrap</h5>
+                <!-- <data value="98">98%</data> -->
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Javascript</h5>
+                <!-- <data value="98">98%</data> -->
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Shopify</h5>
+                <!-- <data value="98">98%</data> -->
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Woocommerce</h5>
+                <!-- <data value="90">90%</data> -->
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Wordpress</h5>
+                <!-- <data value="89">89%</data> -->
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 89%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Search Engine Optimization</h5>
+                <!-- <data value="79">79%</data> -->
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Shopify</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Wordpress</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Front End</button>
+            </li>
+
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Shopify</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Worpress</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Front End</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="shopify">
+              <a href="https://thehamss.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/1.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">The Hamss</h3>
+
+                <p class="project-category">Shopify</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="shopify">
+              <a href="https://vibhaclothing.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/4.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Vibhaclothing</h3>
+
+                <p class="project-category">Shopify</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="shopify">
+              <a href="https://www.i-tex.in/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/2.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">I-Tex</h3>
+
+                <p class="project-category">Shopify</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="shopify">
+              <a href="https://nauticrew.co.in/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/5.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Nauticrew</h3>
+
+                <p class="project-category">Shopify</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="wordpress">
+              <a href="https://dpsvijayapura.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/6.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DPS Vijyapura</h3>
+
+                <p class="project-category">Wordpress</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="wordpress">
+              <a href="https://saicert.in/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/9.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Saicert.in</h3>
+
+                <p class="project-category">Wordpress</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="wordpress">
+              <a href="https://sailegal.in/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/11.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sailegals</h3>
+
+                <p class="project-category">Wordpress</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="front end">
+              <a href="https://bharathsubbiah.github.io/Food-Mart/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/7.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Food Mart</h3>
+
+                <p class="project-category">Html css Bootstrap</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="front end">
+              <a href="https://bharathsubbiah.github.io/Koppee/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/3.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">KOPPEE</h3>
+
+                <p class="project-category">Html Css</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="front end">
+              <a href="https://licsrinivasan.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/10.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Lic Srinivasan</h3>
+
+                <p class="project-category">Html Css Javascript</p>
+
+              </a>
+            </li>
+
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
